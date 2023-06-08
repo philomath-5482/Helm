@@ -7,13 +7,13 @@ spec:
   selector:
    matchLabels:
      app: hello-world
-  templates:
-    metadta:
+  template:
+    metadata:
       labels:
         app: hello-world
     spec:
       containers:
-      - name: hello-worls
+      - name: hello-world
         image: nginx
         ports:
          - name: http
